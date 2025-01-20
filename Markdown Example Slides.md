@@ -2,9 +2,11 @@
 theme: samu-light
 paginate: true
 footer: Samu's Theme
+marp: true
 ---
 
 # Ciao
+
 A sample presentation of my Marp Theme
 
 ---
@@ -25,7 +27,7 @@ $$
 
 <div class="col-50">
 
-![](Assets/ExponentialFunctionGraph.gif)
+![](ExponentialFunctionGraph.gif)
 
 </div>
 
@@ -71,4 +73,3 @@ fn main() {
 Grazie
 
 </div>
-
