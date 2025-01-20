@@ -1,0 +1,27 @@
+/* @theme samu-dark */
+@import 'samu';
+
+:root {
+  --background: #100f0f;
+  --text: #fffcf0;
+  --card: #282726;
+  --card-2: #282726;
+  --table-odd: #403e3c;
+  --table-even: #343331;
+  --border: #878580;
+  --orange: #da702c;
+  --blue: #4385be;
+  --red: #d14d41;
+  --green: #879a39;
+  --magenta: #ce5d97;
+}
+
+table {
+  box-shadow: none;
+}
+pre {
+  box-shadow: none;
+}
+code {
+  filter: invert(1);
+}

@@ -1,0 +1,17 @@
+/* @theme samu-light */
+@import 'samu';
+
+:root {
+  --background: #fffcf0;
+  --text: #100f0f;
+  --card: #e6e4d9;
+  --card-2: #cecdc3;
+  --table-odd: #e6e4d9;
+  --table-even: #dad8ce;
+  --border: #6f6e69;
+  --orange: #bc5215;
+  --blue: #205ea6;
+  --red: #af3029;
+  --green: #66800b;
+  --magenta: #a02f6f;
+}

@@ -1,0 +1,179 @@
+/* @theme samu */
+@import 'default';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Lato:wght@300;400;700&display=swap');
+
+code {
+  font-family: 'Fira Code', monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variant-ligatures: none;
+  font-size: 16rem;
+}
+
+h1,
+h2,
+h3,
+p,
+strong,
+em,
+blockquote {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-weight: 300;
+  font-style: italic;
+}
+
+section {
+  background-color: var(--background);
+  color: var(--text);
+  border: 1px solid var(--text);
+}
+h1 {
+  color: var(--text);
+}
+
+pre {
+  background-color: var(--card);
+  border: 2px solid var(--text);
+  box-shadow: 8px 8px 0px var(--text);
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: outside;
+}
+p.balance {
+  text-wrap: balance;
+}
+
+table {
+  border: 2px solid var(--text);
+  box-shadow: 8px 8px 0px var(--text);
+  margin-inline: auto;
+  border-collapse: collapse;
+  border-radius: 6px;
+}
+
+th,
+td {
+  border: 1px solid var(--text) !important;
+}
+
+th {
+  background-color: var(--card-2);
+}
+
+tr:nth-child(odd) {
+  background-color: var(--table-odd) !important;
+}
+tr:nth-child(even) {
+  background-color: var(--table-even) !important;
+}
+
+mark {
+  background-color: var(--orange);
+  color: var(--text);
+}
+
+.row {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.col-50 {
+  grid-column: span 6;
+}
+
+.col-25 {
+  grid-column: span 3;
+}
+
+.col-75 {
+  grid-column: span 9;
+}
+
+.col-33 {
+  grid-column: span 4;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+}
+
+blockquote {
+  border-left: 10px solid var(--blue);
+  padding: 0.5em 1em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+/* blockquote near a div.warning */
+
+div.warning + blockquote {
+  border-color: var(--orange);
+}
+
+/* blockquote near a div.error */
+
+div.error + blockquote {
+  border-color: var(--red);
+}
+
+/* blockquote near a div.success */
+
+div.success + blockquote {
+  border-color: var(--green);
+}
+
+/* blockquote near a div.example */
+
+div.example + blockquote {
+  border-color: var(--magenta);
+}
+
+.big-text {
+  font-size: 3rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+section::after {
+  content: attr(data-marpit-pagination);
+}
+
+img {
+  border-radius: 6px;
+}
