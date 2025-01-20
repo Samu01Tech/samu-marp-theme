@@ -1,5 +1,5 @@
 ---
-theme: samu-light
+theme: samu-dark
 paginate: true
 footer: Samu's Theme
 marp: true
